@@ -1,12 +1,44 @@
 :root{
-
+--box-hover-color: rgba(169, 169, 169, 0.555);
+--main-font:'Times New Roman,'sans-serif, serif;
+--primary-border-radius:10%;
+--primary-margin: 200px;
 }
 
 body {
-    font-family: 'Times New Roman,'sans-serif, serif;
+    font-family:var(--main-font);
     background-color: white;
     color: black;
     font-size: 15px;
+}
+
+header{
+    display:flex;
+    background-color:black;
+    padding:5px;
+}
+
+
+#main_heading
+{
+    text-transform: uppercase;
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;    
+    font-size:30pt;
+    color:azure;
+}
+
+#main_section{
+    width:auto;
+    margin-left: var(--primary-margin);
+    margin-right: var(--primary-margin);
+    padding:10px;
+    border: 15px,hidden;
+    border-radius:var(--primary-border-radius);
+    background-color:rgb(235, 217, 217);
+    font-size: large;
+    line-height: 1.5;
 }
 
 #me{
@@ -18,9 +50,10 @@ width: 150px;
 
 #my_profile{
     text-align:center;
-    margin-left:200px;
-    margin-right: 200px;
+    margin-left:var(--primary-margin);
+    margin-right: var(--primary-margin);
     background-color:beige;
+    border-radius: var(--primary-border-radius);
 }
 
 #profile_heading{
@@ -30,80 +63,55 @@ width: 150px;
 #my_bio{
     text-align:center;
     font-size: 16px;
-
-}
-
-header{
-    display:flex;
-    background-color:black;
-    padding:5px;
 }
 
 #logo{
     width: 120x;
     height: 90px;
     padding: 10px;
-    background-color:aquamarine;
     border-radius:45%;
 }
 
 #web_dev{
-width: 25%;
+width: 30%;
 height:25%;    
 float:right;
 margin-right: 175px;
-
-}
-
-#main_section{
-    width:auto;
-    margin-left: 200px;
-    margin-right: 200px;
-    padding:10px;
-    border: 15px,hidden;
-    border-radius:5%;
-    background-color:rgb(235, 217, 217);
-    font-size: large;
 }
 
 #profile_heading{
     text-align: center;
 }
 
-#main_heading
-{
-    text-transform: uppercase;
-    text-align:center;
-    margin-left: 700px;
-    margin-right: auto;    
-    font-size:30pt;
-    color:azure;
-}
- a{
+a{
     padding: 5px;
     color: black;
     font-size: 20px;
     text-decoration: none;
-}
-#qau{
-    text-decoration: none;
-    font-size: 15px;
-    padding: none;
 }
 
 a:hover {
     color:rgb(17, 123, 228);    
 } 
 
-footer {
+#qau{
+    text-decoration: none;
+    font-size: 15px;
+    padding: none;
+}
+
+#box1:hover{
+  background-color:var(--box-hover-color);
+}
+
+#box2:hover{
+    background-color:var(--box-hover-color);
+}
+
+  footer {
     text-transform: uppercase;
+    font-weight: bold;
     padding:20px;
     background-color:coral;
     text-align:center
 }
-#box1:hover{
-  background-color: rgba(169, 169, 169, 0.555);
-}
-#box2:hover{
-    background-color:rgba(169, 169, 169, 0.555);
-  }
