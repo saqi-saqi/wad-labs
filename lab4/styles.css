@@ -161,8 +161,3 @@ button:hover {
     color:black; 
     line-height: 1.8;
 }
-
-@media (max-width: 768px) {
-    table, form {
-        width: 90%;
-    }
