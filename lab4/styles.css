@@ -1,0 +1,165 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: rgba(243, 240, 194, 0.7);
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: rgba(30, 29, 29, 0.927);
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 8px 12px;
+}
+
+nav ul li a:hover {
+    background-color: rgba(211, 211, 211, 0.284);
+    border-radius: 10px;
+}
+
+header {
+    background-color: rgba(220, 20, 60, 0.8);
+    text-align: center;
+    padding: 10px;
+    color: aliceblue;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+table {
+    background-color: rgba(255, 235, 205, 0.85);
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin: 10px auto;
+    width: 55%;
+    text-align: center;
+}
+
+caption {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: aliceblue;
+    background-color: black;
+    padding: 8px;
+}
+
+th, td {
+    border: 2px solid black;
+    padding: 4px;
+}
+
+th {
+    background-color: forestgreen;
+    color: aliceblue;
+}
+
+tr:hover {
+    background-color: rgba(211, 211, 211, 0.7);
+}
+
+footer {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px;
+    background-color: coral;
+    text-align: center;
+    color: white;
+    margin-top: 15px;
+}
+
+form {
+    width: 50%;
+    margin: 20px auto;
+    padding: 15px;
+    background-color:rgb(224, 159, 137);
+    border-radius: 8px;
+    border: 2px solid black;
+}
+
+fieldset {
+    border: none;
+}
+
+label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 5px;
+}
+
+input, select, textarea {
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+legend{
+    text-align: center;
+    font-size:x-large;
+    font-weight: bold;
+    border: 4px,solid,black;
+    border-radius: 20px;
+}
+
+button {
+    width: 50%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 200px;
+    background-color:white;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color:beige;
+}
+
+#report {
+    width:50%;
+    padding : 10px;
+    margin-left:auto;
+    margin-right:400px;
+    background-color:rgba(239, 187, 124, 0.666);
+    border: 2px solid,white; 
+    padding: 15px;
+    border-radius: 20px; 
+   
+}
+
+#report h3 {
+    color: rgb(30, 25, 25); 
+    font-size: 22px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#report p {
+    font-size: 16px;
+    color:black; 
+    line-height: 1.8;
+    text-align: justify;
+}

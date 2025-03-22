@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tables and forms</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <h1>Students Records Management</h1>
+</header>
+<nav>
+    <ul>
+        <li><a href="#records">Student Records</a></li>
+        <li><a href="#form">Registration Form</a></li>
+        <li><a href="#report">Report</a></li>
+    </ul>
+</nav>    
+<table id="records">
+<caption>CS 6th Semester Students Data</caption>
+    <thead>    
+        <tr>
+            <th>Serial No</th>
+            <th>Name</th>
+            <th>Registration No</th>
+            <th>Mobile No</th>
+            <th>Gender</th>
+            <th>Skills</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Ahmed Khan</td>
+            <td>04072213001</td>
+            <td>03001234567</td>
+            <td>Male</td>
+            <td>
+                <ul>
+                    <li>Python Developer</li>
+                    <li>Cyber Security</li>
+                    <li>AI & Machine Learning</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Ayesha Siddiqui</td>
+            <td>04072213002</td>
+            <td>03121234567</td>
+            <td>Female</td>
+            <td>
+                <ul>
+                    <li>Web Developer</li>
+                    <li>UI/UX Designer</li>
+                    <li>Front-End Development</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Bilal Ahmed</td>
+            <td>04072213003</td>
+            <td>03231234567</td>
+            <td>Male</td>
+            <td>
+                <ul>
+                    <li>Data Science</li>
+                    <li>Cloud Computing</li>
+                    <li>Python Developer</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Moiz Khan</td>
+            <td>04072213004</td>
+            <td>03001234568</td>
+            <td>Male</td>
+            <td>
+                <ul>
+                    <li>Full-Stack Developer</li>
+                    <li>Cyber Security</li>
+                    <li>Blockchain Enthusiast</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Noor Ul Huda</td>
+            <td>04072213005</td>
+            <td>03121234569</td>
+            <td>Female</td>
+            <td>
+                <ul>
+                    <li>Software Testing</li>
+                    <li>Quality Assurance</li>
+                    <li>Scrum Master</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Shafique</td>
+            <td>04072213006</td>
+            <td>03231234570</td>
+            <td>Male</td>
+            <td>
+                <ul>
+                    <li>Embedded Systems</li>
+                    <li>IoT Developer</li>
+                    <li>Linux Administrator</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Tanveer Atta</td>
+            <td>04072213007</td>
+            <td>03001234571</td>
+            <td>Male</td>
+            <td>
+                <ul>
+                    <li>Game Developer</li>
+                    <li>Unity Expert</li>
+                    <li>3D Modeling</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>Uswa</td>
+            <td>04072213008</td>
+            <td>03121234572</td>
+            <td>Female</td>
+            <td>
+                <ul>
+                    <li>Data Analyst</li>
+                    <li>Power BI</li>
+                    <li>Machine Learning</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>Masood Babar</td>
+            <td>04072213009</td>
+            <td>03231234573</td>
+            <td>Male</td>
+            <td>
+                <ul>
+                    <li>Mobile App Developer</li>
+                    <li>React Native</li>
+                    <li>Flutter Developer</li>
+                </ul>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<form id="form" method="post" action="process.php">
+    <fieldset>
+    <legend>student registration form</legend>
+    <p>
+   <label>Name: </label>
+    <input type="text" placeholder="enter your full name here" name="name" required/>
+    </p>
+    <p>
+    <label>Mobile No: </label>
+    <input type="tel" name="mobile-no" placeholder="e.g 03011056857" required/>
+    </p>
+  
+    <p>
+    <label>Registration No: </label>
+    <input type="number" name="registration no" placeholder="e.g 04072213001" required/>
+     </p>
+  
+    <p>
+    <label>Gender: </label>
+    <input type="radio" name="where" value="1">Female
+     <input type="radio" name="where" value="2">male
+     <input type="radio" name="where" value="3">other
+     </p>
+     <p>
+    <label id="Skills">skills: </label>
+    <br/>
+    <div>
+        <input type="checkbox" name="skills" value="web development">web development<br/>
+        <input type="checkbox" name="skills" value="cyber security">cyber security<br/>
+        <input type="checkbox" name="skills" value="machine learning">machine learning<br/>
+        <input type="checkbox" name="skills" value="">other<br/>
+    </div>
+</p>                
+ <button type="submit">Submit </button>    
+</fieldset>
+</form>
+
+<div id="report">
+<h3>report:</h3>
+<p>
+    In this task i used the following tags:body,head,title,h1,h3,div,p,header,footer,input,br,button,table,form,fieldset.
+    I used table for arrangement of the records and a form for the table information to be taken as an input form the user.
+    The other tags were used for semntics and better alignment of the particular sections and the webpage as a whole.
+</p>
+</div>
+<footer> copyright&copy Muhammad saqib tariq 2025;
+</footer>
+</body> 
