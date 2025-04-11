@@ -156,7 +156,7 @@ a:hover {
         float: none;
         margin: 10px auto;
     }
-    
+
 }
 
 /* 💊 Tablet Devices */
@@ -174,6 +174,11 @@ a:hover {
     #my_profile {
         margin: 30px;
     }
+
+    
+    #main_heading {
+        font-size: 26pt;
+         }
 
     #me {
         width: 120px;
@@ -211,6 +216,10 @@ a:hover {
         margin-left:auto;
         margin-right: auto;
     }
+    
+    #main_heading {
+        font-size: 35pt;
+         }
 
     #me {
         width: 150px;
@@ -218,10 +227,12 @@ a:hover {
     }
 
     #logo {
-        width: 200px;
-        height: 160px;
+        width: 160px;
+        height: 130px;
         padding: 10px;
-        border-radius: 55%;
+        border-radius: 50%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     #web_dev {
