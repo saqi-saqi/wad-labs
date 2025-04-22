@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bug Free Blog</title>
+    <link rel="icon" href="my_website_logo.webp.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/tailwindcss">
+    </style>
+</head>
+<body class="grid grid-rows-[auto_1fr_auto_auto] font-['Times_New_Roman',_sans-serif,_serif] bg-white text-black text-[15px] m-0">
+
+    <header class="grid-area-header flex justify-center items-center bg-black p-[5px]">
+        <img id="logo" src="my_website_logo.webp" alt="website_logo" class="w-[120px] h-[90px] p-[10px] rounded-[45%] md:w-[110px] md:h-[100px] md:rounded-[65%] lg:w-[160px] lg:h-[130px] lg:rounded-[50%] lg:mx-auto">
+        <h1 id="main_heading" class="uppercase text-[30pt] text-azure text-center md:text-[26pt] lg:text-[35pt]">Bug Free Blog</h1>
+        <img id="logo" src="my_website_logo.webp" alt="website_logo" class="w-[120px] h-[90px] p-[10px] rounded-[45%] md:w-[110px] md:h-[100px] md:rounded-[65%] lg:w-[160px] lg:h-[130px] lg:rounded-[50%] lg:mx-auto">
+    </header>
+
+    <div id="main_section" class="grid-area-main mx-[200px] my-[20px] p-[20px_50px] rounded-[10%] bg-[rgb(235,217,217)] text-[large] leading-[1.5] md:mx-[30px] md:my-[10px]">
+        <h2 class="text-2xl font-bold mb-4">Welcome to My website</h2>
+        <p class="mb-4"><strong class="underline">Published on</strong>: <span id="date" class="font-medium">March 13, 2025</span></p>
+        <p class="mb-4"><b>Web development</b> is an evolving field that offers many opportunities to create, innovate, and improve our digital world. It combines creativity with technical skills, making it an interesting field for many people.</p>
+        <img src="web_development.png" alt="Web development paradigm" id="web_dev" class="flex mx-auto my-4 md:my-4 lg:my-4">
+        
+        <h3 class="text-xl font-bold mb-3">Why I Love Web Development</h3>
+        <ul class="list-disc pl-6 mb-6">
+            <li class="mb-2">It allows to explore creativity and improves one problem-solving skills.</li>
+            <li class="mb-2">There are always new technologies to explore and learn them.</li>
+            <li class="mb-2">It enables me to build useful web applications.</li>
+        </ul>
+
+        <h3 class="text-xl font-bold mb-3">websites for beginners in Web Development</h3>
+        <ul class="list-disc pl-6 mb-6">
+            <li class="mb-2"><a href="https://developer.mozilla.org/en-US/" target="_blank" class="text-black text-[20px] no-underline hover:text-blue-500 p-[5px]">MDN Web-docs</a></li>
+            <li class="mb-2"><a href="https://www.w3schools.com/" target="_blank" class="text-black text-[20px] no-underline hover:text-blue-500 p-[5px]">W3Schools</a></li>
+            <li class="mb-2"><a href="https://www.freecodecamp.org/" target="_blank" class="text-black text-[20px] no-underline hover:text-blue-500 p-[5px]">Free Code Camp</a></li>
+        </ul>
+    </div>
+
+    <div id="my_profile" class="grid-area-profile flex flex-col items-center bg-beige mx-[200px] my-[20px] p-[15px] rounded-[10%] text-center md:mx-[30px]">
+        <h2 id="profile_heading" class="uppercase text-xl font-bold mb-4">My Profile</h2>
+        <img id="me" src="me.png" alt="my profile picture" class="rounded-[90%] border-[10px] border-black h-[100px] w-[150px] md:h-[120px] md:w-[120px] lg:h-[150px] lg:w-[150px]">
+        <p class="my-2"><b>Saqib Tariq</b><br><strong>100</strong> followers</p>
+        <p id="my_bio" class="text-[16px] mt-[10px]">
+            I am a Computer Science student.
+            I am currently studing in <a id="qau" href="https://qau.edu.pk/" target="_blank" class="text-black text-[15px] no-underline hover:text-blue-500">QAU</a>.
+            Interested in front-end and back-end development.
+        </p>
+        
+        <div class="my_profiles flex gap-4 mt-4">
+            <a id="box1" href="mailto:saqibtariq583@gmail.com" target="_blank" 
+               class="flex items-center gap-2 text-black text-[20px] no-underline hover:bg-gray-400 hover:bg-opacity-50 p-[5px]">
+                <img src="email.png" alt="email Logo" width="40px" height="25px">gmail
+            </a>
+            <a id="box2" href="https://github.com/saqi-saqi" target="_blank" 
+               class="flex items-center gap-2 text-black text-[20px] no-underline hover:bg-gray-400 hover:bg-opacity-50 p-[5px]">
+                <img src="github.png" alt="git hub Logo" width="40px" height="22.5px">github
+            </a>
+        </div>
+
+    <footer class="grid-area-footer uppercase font-bold p-[20px] bg-coral text-center">
+        copyright&copy Muhammad saqib tariq 2025 &trade;
+    </footer>
+</body>
+</html>
